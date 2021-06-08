@@ -24,10 +24,10 @@
   var names=["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim","Lucy"];
 for (var i=0;i<names.length;i++) {
   if (names[i][0].toLowerCase()==='j') { 
-    speakGoodbye.sayGoodbye(names[i]);  
+    speakHello.sayGoodbye(names[i]);  
   }
   else{
-   speakHello.sayHello(names[i]); 
+   speakGoodbye.sayHello(names[i]); 
   }
 }
 })();
